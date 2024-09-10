@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ticket Queue System</title>
+        <link rel="stylesheet" href="queing.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Ticket Queue System</h1>
+            <div class="input-container">
+                <input
+                    type="text"
+                    id="ticketInput"
+                    placeholder="Enter your ticket here"
+                />
+                <button id="submitButton">Submit</button>
+            </div>
+            <div class="list-container">
+                <div class="ticket-section">
+                    <h2>Unsolved Tickets</h2>
+                    <ul id="ticketList" class="ticket-list">
+                        <!-- Unsolved tickets will be added here dynamically -->
+                    </ul>
+                </div>
+                <div class="ticket-section">
+                    <h2>Solved Tickets</h2>
+                    <ul id="solvedList" class="ticket-list">
+                        <!-- Solved tickets will be added here dynamically -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="queing.js"></script>
+    </body>
+</html>
