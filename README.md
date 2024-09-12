@@ -1,6 +1,7 @@
 # Project Documentation: skole-del2
 
-Welcome to the `skole-del2` project repository. This document provides an overview of the content related to ECMAScript 6 (ES6), Object-Oriented Programming (OOP), asynchronous programming (async/await), and error handling included in this project.
+Welcome to the `skole-del2`
+notes on code made in class for lvl 2 front end development
 
 ## 1. Introduction
 
